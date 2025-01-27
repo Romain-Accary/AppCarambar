@@ -1,0 +1,25 @@
+.button-generate {
+    background-color: #ff6ec7;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 50px;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-generate:hover {
+    background-color: #ff3ea8;
+}
+
+.button-generate:active {
+    transform: scale(0.95);
+    background-color: #e60073;
+}
+
+.button-generate:focus {
+    outline: 3px solid #ff3ea8;
+    outline-offset: 2px;
+}

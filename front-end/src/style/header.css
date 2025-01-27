@@ -1,0 +1,29 @@
+.header-contener {
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle, rgba(255, 224, 130, 1) 0%, rgba(255, 214, 64, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Baloo 2', sans-serif;
+    color: #e60012;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.title:hover {
+    color: #ff6ec7;
+    transform: scale(1.05);
+}
+
+.subtitle{
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #b2000d;
+}
