@@ -15,10 +15,9 @@ const App = () => {
             if (!response.ok) throw new Error("Erreur lors du chargement de la blague !");
 
             const data = await response.json();
-            console.log("Réponse complète :", data); // Log de la réponse complète
-            console.log("Blague récupérée :", data.text); // Log des données récupérées
-            setJoke(data.text); // Utilisez data.text pour définir l'état joke
-        } catch (error) {
+            console.log("Réponse complète :", data); 
+            console.log("Blague récupérée :", data.text); 
+            setJoke(data.text); 
             console.error("Erreur lors de la récupération de la blague :", error);
             setJoke("Oops, impossible de charger une blague 😅");
         } finally {
