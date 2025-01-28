@@ -8,8 +8,6 @@ https://app-carambar-j9k85bjz2-romains-projects-a67cb888.vercel.app/
 
 Pour installer et exécuter ce projet localement, suivez ces étapes :
 
-1. Clonez le dépôt :
-
    ```sh
    git clone https://github.com/<votre-nom-utilisateur>/AppCarambar.git
    cd AppCarambar
