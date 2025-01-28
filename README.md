@@ -13,3 +13,4 @@ Pour installer et exécuter ce projet localement, suivez ces étapes :
    ```sh
    git clone https://github.com/<votre-nom-utilisateur>/AppCarambar.git
    cd AppCarambar
+   npm run dev
