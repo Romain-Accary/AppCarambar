@@ -1,8 +1,15 @@
-# React + Vite
+# App Carambar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App Carambar est une application web qui affiche des blagues Carambar aléatoires. Elle est construite avec React et Vite, et déployée sur Vercel.
 
-Currently, two official plugins are available:
+https://app-carambar-k795orj4s-romains-projects-a67cb888.vercel.app/_logs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Pour installer et exécuter ce projet localement, suivez ces étapes :
+
+1. Clonez le dépôt :
+
+   ```sh
+   git clone https://github.com/<votre-nom-utilisateur>/AppCarambar.git
+   cd AppCarambar
